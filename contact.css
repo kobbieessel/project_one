@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&family=Montserrat:wght@800&family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #aaa;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+.home-container {
+  position: relative;
+  width: 100%;
+}
+nav {
+  padding: 1em 4em;
+  /* position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 3; */
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+nav,
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  list-style: none;
+  gap: 1rem;
+}
+li a {
+  text-decoration: none;
+  color: #fff;
+}
+li:last-child a {
+  padding: 0.8em 0.5em;
+  background-color: #fff;
+  color: #000;
+  border-bottom: 4px solid #000;
+}
+.logo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.contact-container {
+  display: flex;
+  height: 100vh;
+}
+.text-box {
+  flex: 1;
+  padding: 4em 3em;
+  border: 1px solid red;
+}
+
+.text_main {
+  width: 70%;
+  margin: 5rem 0 15rem;
+  /* border: 1px solid red; */
+}
+.text h1 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+.text p {
+  font-weight: 500;
+}
+
+/* .contact_info {
+} */
+.call,
+.mail {
+  display: flex;
+  gap: 1rem;
+}
+.text .call span {
+  font-weight: 400;
+}
+/* 
+second box */
+.form-box {
+  flex: 1;
+  padding: 9em 3em;
+}
+.user_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  width: 100%;
+  padding: 0.7em 0;
+  border: none;
+  border-bottom: 2px solid #000;
+  background: transparent;
+}
+.name {
+  flex: 1;
+}
+.email {
+  margin-left: 2rem;
+  flex: 1;
+}
+.message {
+  margin-top: 4rem;
+}
+button {
+  margin-top: 4rem;
+  padding: 0.6em 3em;
+}
