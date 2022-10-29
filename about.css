@@ -37,11 +37,11 @@ li a {
   color: #fff;
   width: 250px;
 }
-li:nth-child(3) a {
+li:nth-child(4) a {
   color: #fff;
   border-bottom: 2px solid tomato;
 }
-li:not(:nth-child(3)) a:hover {
+li:not(:nth-child(4)) a:hover {
   padding: 0.8em 0.5em;
   color: #fff;
   border-bottom: 2px solid tomato;
