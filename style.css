@@ -10,6 +10,10 @@ body {
   height: 100vh;
   font-family: "Poppins", sans-serif;
 }
+
+/*============== 
+Navigation bar 
+==============*/
 nav {
   padding: 1em 4em;
   position: absolute;
@@ -51,15 +55,67 @@ li:not(:first-child) a:hover {
   font-weight: 700;
   font-size: 1.2rem;
 }
+
+/*============
+Home container 
+============*/
 .home-container {
   height: 100vh;
   width: 100vw;
   background-color: rgba(0, 0, 0, 0.7);
-  background-image: url("/images/house_1.jpg");
+  /* background-image: url("/images/house_1.jpg"); */
   background-position: left center;
   background-size: cover;
   background-blend-mode: overlay;
-  display: flexbox;
-  align-items: center;
-  justify-content: center;
+  animation: background_image ease 40s infinite alternate;
+}
+/* it changes the backgound image  */
+@keyframes background_image {
+  0% {
+    background-image: url("/images/house_1.jpg");
+  }
+  25% {
+    background-image: url("/images/house_2.jpg");
+  }
+  50% {
+    background-image: url("/images/house_3.jpg");
+  }
+  75% {
+    background-image: url("/images/house_4.jpg");
+  }
+  100% {
+    background-image: url("/images/house_5.jpg");
+  }
+}
+.overlay_text {
+  height: 100%;
+  padding: 10em 0;
+}
+.text {
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+}
+.text h1 {
+  font-size: 4rem;
+  width: 50%;
+  font-weight: 600;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+.text p {
+  width: 70%;
+  line-height: 1.8;
+  padding: 2em 0;
+  font-weight: 300;
+  font-family: "Epilogue", "Montserrat", sans-serif;
+}
+.text a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.6em 2em;
+  color: #fff;
+  background-color: tomato;
+  font-weight: 500;
 }
