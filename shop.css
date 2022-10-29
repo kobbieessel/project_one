@@ -39,15 +39,20 @@ li a {
 }
 li:nth-child(2) a {
   color: #fff;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid tomato;
 }
 li:not(:nth-child(2)) a:hover {
   padding: 0.8em 0.5em;
   color: #fff;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid tomato;
 }
 .logo {
   font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.logo span {
+  color: tomato;
   font-weight: 700;
   font-size: 1.2rem;
 }
