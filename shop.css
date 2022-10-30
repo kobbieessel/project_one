@@ -12,11 +12,11 @@ body {
 }
 nav {
   padding: 1em 4em;
-  /* position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
   top: 0;
-  z-index: 3;*/
+  z-index: 3;
   background-color: rgba(0, 0, 0, 0.7);
   color: #000;
   height: 51px;
@@ -56,4 +56,67 @@ li:not(:nth-child(2)) a:hover {
   color: tomato;
   font-weight: 700;
   font-size: 1.2rem;
+}
+main {
+  background-color: rgb(129, 145, 160);
+}
+.items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 4em;
+  grid-gap: 1em;
+}
+.card {
+  /* padding-bottom: 3em; */
+  background-color: #fff;
+  border-radius: 7px;
+  overflow: hidden;
+  box-shadow: 3px 2px 3px 2px rgba(87, 86, 86, 0.644);
+}
+img {
+  width: 100%;
+  height: 100%;
+
+  transition: transform 0.6s ease;
+}
+.image {
+  overflow: hidden;
+  height: 200px;
+}
+.image:hover img {
+  transform: scale(1.3);
+}
+.text {
+  padding: 2em;
+}
+.text p {
+  padding-bottom: 0.5em;
+}
+.map,
+.phone,
+.cost {
+  display: flex;
+  align-items: center;
+}
+.icons {
+  margin-bottom: 1rem;
+}
+.icons i {
+  font-size: 1.5rem;
+  color: tomato;
+}
+.icons p {
+  margin-left: 1em;
+  font-size: 1.2rem;
+}
+.btn {
+  padding: 0.9em 4em;
+  width: 100%;
+  border: none;
+  color: #fff;
+  background: tomato;
+  cursor: pointer;
+}
+.btn:hover {
+  background: rgb(248, 71, 39);
 }
