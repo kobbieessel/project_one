@@ -94,7 +94,9 @@ li:not(:nth-child(3)) a:hover {
 .build,
 .rent,
 .sell,
-.buy {
+.buy,
+.renovate,
+.materials {
   text-align: center;
   padding: 1.56em 0.625em;
   font-size: 0.875rem;
@@ -106,11 +108,11 @@ li:not(:nth-child(3)) a:hover {
   font-size: 3rem;
   margin-bottom: 1.5rem;
 }
-:is(.build, .rent, .sell, .buy):hover {
+:is(.build, .rent, .sell, .buy, .renovate, .materials):hover {
   background-color: tomato;
   color: #fff;
   transform: scale(1.05);
 }
-:is(.build, .rent, .sell, .buy):hover i {
+:is(.build, .rent, .sell, .buy, .renovate, .materials):hover i {
   color: #fff;
 }
