@@ -57,9 +57,7 @@ li:not(:nth-child(2)) a:hover {
   font-weight: 700;
   font-size: 1.2rem;
 }
-main {
-  background-color: rgb(129, 145, 160);
-}
+
 .items {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -71,7 +69,7 @@ main {
   background-color: #fff;
   border-radius: 7px;
   overflow: hidden;
-  box-shadow: 3px 2px 3px 2px rgba(87, 86, 86, 0.644);
+  box-shadow: 3px 2px 3px 2px rgba(87, 86, 86, 0.473);
 }
 img {
   width: 100%;
