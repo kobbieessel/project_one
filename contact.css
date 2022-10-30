@@ -62,26 +62,48 @@ li:not(:last-child) a:hover {
 }
 .box {
   width: 50%;
-  height: 500px;
+  /* height: 500px; */
   border: 1px solid red;
-  padding: 0 30px;
+  padding: 5rem;
   /* display: grid;
   place-items: center; */
+  flex: 1;
 }
 h1 {
   font-size: 50px;
 }
-input {
-  width: 80%;
-  height: 50px;
+[type="text"] {
+  width: 100%;
+  padding: 0.7em 0;
   border: none;
   border-bottom: 1px solid black;
+  background: transparent;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  outline: none;
 }
 form {
-  margin: 69px 0;
+  margin: 1rem 0;
+  overflow: hidden;
 }
 .box2 {
   width: 50%;
   height: 500px;
   border: 1px solid red;
+  flex: 1;
+}
+#message {
+  margin-bottom: 2rem;
+  outline: none;
+  border: none;
+  padding: 0.7em 0.5em;
+  /* font-family: "Poppins", sans-serif; */
+}
+form a {
+  background-color: black;
+  text-align: center;
+  padding: 0.7em 10em;
+  text-decoration: none;
+  color: #ddd;
+  outline: none;
 }
