@@ -38,12 +38,12 @@ li a {
   width: 250px;
 }
 li:nth-child(4) a {
-  color: #fff;
+  color: tomato;
   border-bottom: 2px solid tomato;
 }
 li:not(:nth-child(4)) a:hover {
   padding: 0.8em 0.5em;
-  color: #fff;
+  color: tomato;
   border-bottom: 2px solid tomato;
 }
 .logo {
@@ -71,7 +71,7 @@ main p {
   padding: 0.254em 0;
 }
 .content {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 section {

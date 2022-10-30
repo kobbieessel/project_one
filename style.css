@@ -42,12 +42,12 @@ li a {
   width: 250px;
 }
 li:first-child a {
-  color: #fff;
+  color: tomato;
   border-bottom: 2px solid tomato;
 }
 li:not(:first-child) a:hover {
   padding: 0.8em 0.5em;
-  color: #fff;
+  color: tomato;
   border-bottom: 2px solid tomato;
 }
 .logo {
