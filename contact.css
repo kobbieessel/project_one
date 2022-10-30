@@ -6,15 +6,9 @@
   box-sizing: border-box;
 }
 body {
-  /* background-color: #aaa; */
+  background-color: #ddd;
   height: 100vh;
-  padding: 3rem 0;
   font-family: "Poppins", sans-serif;
-  background-color: rgba(0, 0, 0, 0.9);
-  background-image: url("/images/house_1.jpg");
-  background-position: left center;
-  background-size: cover;
-  background-blend-mode: overlay;
 }
 nav {
   padding: 1em 4em;
@@ -62,72 +56,32 @@ li:not(:last-child) a:hover {
   font-weight: 700;
   font-size: 1.2rem;
 }
-.contact-container {
+
+.container {
   display: flex;
-  height: 100vh;
-  width: 60%;
-  margin: 0 auto;
 }
-.text-box {
-  flex: 1;
-  padding: 4em 3em;
+.box {
+  width: 50%;
+  height: 500px;
   border: 1px solid red;
+  padding: 0 30px;
+  /* display: grid;
+  place-items: center; */
 }
-
-.text_main {
-  width: 70%;
-  /* margin: 5rem 0 15rem; */
-  /* border: 1px solid red; */
-}
-.text h1 {
-  font-size: 3rem;
-  font-weight: 300;
-}
-.text p {
-  font-weight: 500;
-}
-
-/* .contact_info {
-} */
-.call,
-.mail {
-  display: flex;
-  gap: 1rem;
-}
-.text .call span {
-  font-weight: 400;
-}
-
-/* 
-second box 
-*/
-.form-box {
-  flex: 1;
-  padding: 9em 3em;
-}
-.user_info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+h1 {
+  font-size: 50px;
 }
 input {
-  width: 100%;
-  padding: 0.7em 0;
+  width: 80%;
+  height: 50px;
   border: none;
-  border-bottom: 2px solid #000;
-  background: transparent;
+  border-bottom: 1px solid black;
 }
-.name {
-  flex: 1;
+form {
+  margin: 69px 0;
 }
-.email {
-  margin-left: 2rem;
-  flex: 1;
-}
-.message {
-  margin-top: 4rem;
-}
-button {
-  margin-top: 4rem;
-  padding: 0.6em 3em;
+.box2 {
+  width: 50%;
+  height: 500px;
+  border: 1px solid red;
 }
